@@ -1,0 +1,175 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bread",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:constant",
+                "value": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "born_in_chaos_v1:monster_flesh",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:constant",
+                "value": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{affix_data:{name:\"{\\\"color\\\":\\\"#33FF33\\\",\\\"translate\\\":\\\"misc.apotheosis.affix_name.three\\\",\\\"with\\\":[{\\\"translate\\\":\\\"affix.irons_spellbooks:sword/attribute/spell_power\\\"},\\\"\\\",{\\\"translate\\\":\\\"affix.apotheosis:sword/attribute/lacerating.suffix\\\"}]}\",sockets:1,affixes:{\"apotheosis:sword/attribute/lacerating\":0.07316523790359497f,\"irons_spellbooks:armor/attribute/cooldown\":0.8682687282562256f,\"irons_spellbooks:sword/attribute/spell_power\":0.9440842866897583f},rarity:\"apotheosis:uncommon\"}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "born_in_chaos_v1:monster_flesh",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:constant",
+                "value": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{affix_data:{name:\"{\\\"color\\\":\\\"#33FF33\\\",\\\"translate\\\":\\\"misc.apotheosis.affix_name.three\\\",\\\"with\\\":[{\\\"translate\\\":\\\"affix.irons_spellbooks:sword/attribute/spell_power\\\"},\\\"\\\",{\\\"translate\\\":\\\"affix.apotheosis:sword/attribute/lacerating.suffix\\\"}]}\",sockets:1,affixes:{\"apotheosis:sword/attribute/lacerating\":0.07316523790359497f,\"irons_spellbooks:armor/attribute/cooldown\":0.8682687282562256f,\"irons_spellbooks:sword/attribute/spell_power\":0.9440842866897583f},rarity:\"apotheosis:uncommon\"}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bread",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:constant",
+                "value": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bread",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:constant",
+                "value": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "born_in_chaos_v1:smoked_flesh",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:constant",
+                "value": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bone",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:constant",
+                "value": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "born_in_chaos_v1:smoked_flesh",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:constant",
+                "value": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bread",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:constant",
+                "value": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

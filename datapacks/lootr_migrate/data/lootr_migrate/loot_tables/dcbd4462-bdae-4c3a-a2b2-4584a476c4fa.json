@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:constant",
+                "value": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "prefab:item_swift_blade_bronze",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:constant",
+                "value": 1
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{RepairCost:3,Damage:0,affix_data:{gems:[{id:\"apotheosis:gem\",Count:1b,tag:{affix_data:{rarity:\"apotheosis:common\"},gem:\"apotheosis:core/solar\",uuids:[[I;626489703,-555070615,-1402603370,-414296429]]}},{id:\"apotheosis:gem\",Count:1b,tag:{affix_data:{rarity:\"apotheosis:common\"},gem:\"apotheosis:core/solar\",uuids:[[I;158073868,1382171155,-1436152792,464647590]]}},{id:\"apotheosis:gem\",Count:1b,tag:{affix_data:{rarity:\"apotheosis:common\"},gem:\"apotheosis:core/solar\",uuids:[[I;-316881770,-1078178384,-1799819492,221890138]]}}],sockets:3},Enchantments:[{lvl:1s,id:\"miracle_enchantment:sakura_bloom\"},{lvl:1s,id:\"l2complements:eternal\"}],display:{Lore:[\"{\\\"text\\\":\\\"一把很好的剑，可惜已经生锈了\\\",\\\"italic\\\":false}\"],Name:\"{\\\"text\\\":\\\"生锈的剑\\\"}\"}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

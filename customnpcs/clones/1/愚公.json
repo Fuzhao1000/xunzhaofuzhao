@@ -1,0 +1,898 @@
+{
+    "ReturnToStart": 1b,
+    "Brain": {
+        "memories": {
+        }
+    },
+    "NpcInv": [
+    ],
+    "BossColor": 0,
+    "PotionEffect": 0,
+    "Size": 5.0f,
+    "stopAndInteract": 1b,
+    "TraderNameCheck": 1b,
+    "Resistances": {
+        "Arrow": 1.0f,
+        "Explosion": 1.0f,
+        "Knockback": 1.0f,
+        "Melee": 1.0f
+    },
+    "BossBar": 0b,
+    "RespawnTime": 20,
+    "NpcAngrySound": "",
+    "ReactsToFire": 0b,
+    "IgnoreCobweb": 0b,
+    "PositionOffsetZ": 5.0f,
+    "PositionOffsetY": 5.0f,
+    "PositionOffsetX": 5.0f,
+    "CanUpdate": 1b,
+    "LootMode": 0,
+    "TransformHasAI": 0b,
+    "AttackStrenght": 5,
+    "PersistenceRequired": 0b,
+    "id": "customnpcs:customnpc",
+    "IsStatue": 0b,
+    "MovingPatern": 0,
+    "NpcLines": {
+        "Lines": [
+            {
+                "Line": "挖呀挖",
+                "Song": "",
+                "Slot": 0
+            }
+        ]
+    },
+    "DefendFaction": 0b,
+    "FireIndirect": 0,
+    "NpcVisible": 0,
+    "LinkedNpcName": "",
+    "NpcScenes": {
+        "Scenes": [
+        ]
+    },
+    "HitSound": "minecraft:entity.arrow.hit",
+    "FindShelter": 2,
+    "TraderFuzzyMatch": 1b,
+    "Air": 300s,
+    "TacticalVariant": 0,
+    "Orientation": 0,
+    "ScriptLanguage": "ECMAScript",
+    "HandItems": [
+        {
+        },
+        {
+        }
+    ],
+    "KnockBack": 0,
+    "TransformHasJob": 0b,
+    "ArmorDropChances": [
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f
+    ],
+    "BurnInSun": 0b,
+    "TraderSold": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "minecraft:cooked_rabbit",
+                "Count": 1b,
+                "tag": {
+                    "RepairCost": 0,
+                    "display": {
+                        "Name": "{\"text\":\"脑子里空想挖山\"}"
+                    }
+                }
+            },
+            {
+                "Slot": 1b,
+                "id": "born_in_chaos_v1:black_argillite_wall_n",
+                "Count": 1b,
+                "tag": {
+                    "RepairCost": 0,
+                    "display": {
+                        "Name": "{\"text\":\"挖山进度\"}"
+                    }
+                }
+            },
+            {
+                "Slot": 2b,
+                "id": "minecraft:written_book",
+                "Count": 1b,
+                "tag": {
+                    "filtered_title": "愚公的智慧宝典",
+                    "pages": [
+                        "{\"text\":\"哈哈哈，花了这么多钱，山没挖成功，全进我口袋了，笨蛋玩家\"}"
+                    ],
+                    "title": "愚公的智慧宝典",
+                    "author": "Fuzhao233"
+                }
+            },
+            {
+                "Slot": 3b,
+                "id": "l2archery:tnt_arrow_lv2",
+                "Count": 1b,
+                "tag": {
+                    "RepairCost": 0,
+                    "display": {
+                        "Name": "{\"text\":\"用TNT箭炸\"}"
+                    }
+                }
+            },
+            {
+                "Slot": 4b,
+                "id": "born_in_chaos_v1:black_argillite_wall_n",
+                "Count": 1b,
+                "tag": {
+                    "RepairCost": 0,
+                    "display": {
+                        "Name": "{\"text\":\"挖山进度\"}"
+                    }
+                }
+            },
+            {
+                "Slot": 5b,
+                "id": "minecraft:netherite_ingot",
+                "Count": 1b,
+                "tag": {
+                    "RepairCost": 0,
+                    "display": {
+                        "Name": "{\"text\":\"坚持\"}"
+                    }
+                }
+            },
+            {
+                "Slot": 6b,
+                "id": "minecraft:tnt",
+                "Count": 2b,
+                "tag": {
+                    "RepairCost": 0,
+                    "display": {
+                        "Name": "{\"text\":\"用TNT炸\"}"
+                    }
+                }
+            },
+            {
+                "Slot": 7b,
+                "id": "born_in_chaos_v1:black_argillite_wall_n",
+                "Count": 2b,
+                "tag": {
+                    "RepairCost": 0,
+                    "display": {
+                        "Name": "{\"text\":\"挖山进度\"}"
+                    }
+                }
+            },
+            {
+                "Slot": 8b,
+                "id": "minecraft:written_book",
+                "Count": 1b,
+                "tag": {
+                    "filtered_title": "愚公的反思",
+                    "pages": [
+                        "{\"text\":\"或许我低估这小子的能力了\"}"
+                    ],
+                    "title": "愚公的反思",
+                    "author": "Fuzhao233"
+                }
+            },
+            {
+                "Slot": 9b,
+                "id": "projecte:nova_catalyst",
+                "Count": 2b,
+                "tag": {
+                    "RepairCost": 0,
+                    "display": {
+                        "Name": "{\"text\":\"用超级tnt炸\"}"
+                    }
+                }
+            },
+            {
+                "Slot": 10b,
+                "id": "born_in_chaos_v1:black_argillite_wall_n",
+                "Count": 2b,
+                "tag": {
+                    "RepairCost": 0,
+                    "display": {
+                        "Name": "{\"text\":\"挖山进度\"}"
+                    }
+                }
+            },
+            {
+                "Slot": 11b,
+                "id": "minecraft:written_book",
+                "Count": 1b,
+                "tag": {
+                    "filtered_title": "愚公的惊叹",
+                    "pages": [
+                        "{\"text\":\"好像。。山快没了\"}"
+                    ],
+                    "title": "愚公的惊叹",
+                    "author": "Fuzhao233"
+                }
+            },
+            {
+                "Slot": 12b,
+                "id": "projecte:nova_cataclysm",
+                "Count": 2b,
+                "tag": {
+                    "RepairCost": 0,
+                    "display": {
+                        "Name": "{\"text\":\"用superTNT炸\"}"
+                    }
+                }
+            },
+            {
+                "Slot": 13b,
+                "id": "born_in_chaos_v1:black_argillite_wall_n",
+                "Count": 3b,
+                "tag": {
+                    "RepairCost": 0,
+                    "display": {
+                        "Name": "{\"text\":\"挖山进度\"}"
+                    }
+                }
+            },
+            {
+                "Slot": 14b,
+                "id": "fantasydice:20_sided_wooden_die",
+                "Count": 1b,
+                "tag": {
+                    "RepairCost": 0,
+                    "display": {
+                        "Name": "{\"text\":\"挖山结局钥匙\"}"
+                    }
+                }
+            },
+            {
+                "Slot": 15b,
+                "id": "minecraft:wooden_pickaxe",
+                "Count": 1b,
+                "tag": {
+                    "RepairCost": 3,
+                    "Damage": 0,
+                    "CanDestroy": [
+                        "minecraft:smooth_stone"
+                    ],
+                    "Enchantments": [
+                        {
+                            "lvl": 1s,
+                            "id": "l2complements:eternal"
+                        }
+                    ],
+                    "display": {
+                        "Lore": [
+                            "{\"text\":\"劳动最光荣\",\"italic\":false}"
+                        ],
+                        "Name": "{\"text\":\"永远的劳工\"}"
+                    }
+                }
+            },
+            {
+                "Slot": 16b,
+                "id": "born_in_chaos_v1:black_argillite_wall_n",
+                "Count": 16b,
+                "tag": {
+                    "RepairCost": 0,
+                    "display": {
+                        "Name": "{\"text\":\"挖山进度\"}"
+                    }
+                }
+            }
+        ]
+    },
+    "StandingState": 0,
+    "ShowLayers": 1b,
+    "AttackInvisible": 0b,
+    "NpcInteractNPCLines": {
+        "Lines": [
+        ]
+    },
+    "HurtTime": 0s,
+    "WalkingRange": 10,
+    "ShotCount": 1,
+    "pDur": 5,
+    "TraderIgnoreDamage": 0b,
+    "AttackRange": 2.0f,
+    "ActiveRange": 32,
+    "NpcKillLines": {
+        "Lines": [
+        ]
+    },
+    "PotionImmune": 0b,
+    "AvoidsSun": 0b,
+    "Texture": "customnpcs:textures/entity/humanmale/steve.png",
+    "NpcJob": 0,
+    "BurstCount": 1,
+    "NpcAttackLines": {
+        "Lines": [
+        ]
+    },
+    "pSpeed": 10,
+    "pArea": 0,
+    "DeathTime": 0s,
+    "pImpact": 0,
+    "MoveState": 0,
+    "pRender3D": 1b,
+    "BalmData": {
+    },
+    "Motion": [
+        0.0d,
+        -0.0784000015258789d,
+        0.0d
+    ],
+    "CombatRegen": 0,
+    "NpcsTimers": [
+    ],
+    "MarkovGender": 0,
+    "pEffect": 0,
+    "DistanceToMelee": 0,
+    "NpcStepSound": "",
+    "FireRate": 5,
+    "LeftHanded": 0b,
+    "pEffAmp": 0,
+    "OnGround": 1b,
+    "ImmuneToFire": 0b,
+    "OverlayGlowing": 1b,
+    "NpcKilledLines": {
+        "Lines": [
+        ]
+    },
+    "TraderMarket": "",
+    "Fire": -1s,
+    "ArmorItems": [
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        }
+    ],
+    "DisablePitch": 0b,
+    "pPhysics": 1b,
+    "TransformHasInv": 0b,
+    "NpcInteractLines": {
+        "Lines": [
+            {
+                "Line": "我要移山",
+                "Song": "",
+                "Slot": 0
+            }
+        ]
+    },
+    "HurtByTimestamp": 40646,
+    "TraderCurrency": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "minecraft:diamond",
+                "Count": 1b
+            },
+            {
+                "Slot": 1b,
+                "id": "minecraft:cooked_rabbit",
+                "Count": 64b,
+                "tag": {
+                    "RepairCost": 0,
+                    "display": {
+                        "Name": "{\"text\":\"脑子里空想挖山\"}"
+                    }
+                }
+            },
+            {
+                "Slot": 2b,
+                "id": "born_in_chaos_v1:black_argillite_wall_n",
+                "Count": 64b,
+                "tag": {
+                    "RepairCost": 0,
+                    "display": {
+                        "Name": "{\"text\":\"挖山进度\"}"
+                    }
+                }
+            },
+            {
+                "Slot": 3b,
+                "id": "minecraft:diamond",
+                "Count": 2b
+            },
+            {
+                "Slot": 4b,
+                "id": "l2archery:tnt_arrow_lv2",
+                "Count": 64b,
+                "tag": {
+                    "RepairCost": 0,
+                    "display": {
+                        "Name": "{\"text\":\"用TNT箭炸\"}"
+                    }
+                }
+            },
+            {
+                "Slot": 5b,
+                "id": "minecraft:diamond",
+                "Count": 8b
+            },
+            {
+                "Slot": 6b,
+                "id": "minecraft:diamond",
+                "Count": 3b
+            },
+            {
+                "Slot": 7b,
+                "id": "minecraft:tnt",
+                "Count": 64b,
+                "tag": {
+                    "RepairCost": 0,
+                    "display": {
+                        "Name": "{\"text\":\"用TNT炸\"}"
+                    }
+                }
+            },
+            {
+                "Slot": 8b,
+                "id": "minecraft:written_book",
+                "Count": 1b,
+                "tag": {
+                    "filtered_title": "愚公的智慧宝典",
+                    "pages": [
+                        "{\"text\":\"哈哈哈，花了这么多钱，山没挖成功，全进我口袋了，笨蛋玩家\"}"
+                    ],
+                    "title": "愚公的智慧宝典",
+                    "author": "Fuzhao233"
+                }
+            },
+            {
+                "Slot": 9b,
+                "id": "minecraft:diamond",
+                "Count": 4b
+            },
+            {
+                "Slot": 10b,
+                "id": "projecte:nova_catalyst",
+                "Count": 64b,
+                "tag": {
+                    "RepairCost": 0,
+                    "display": {
+                        "Name": "{\"text\":\"用超级tnt炸\"}"
+                    }
+                }
+            },
+            {
+                "Slot": 11b,
+                "id": "minecraft:written_book",
+                "Count": 1b,
+                "tag": {
+                    "filtered_title": "愚公的反思",
+                    "pages": [
+                        "{\"text\":\"或许我低估这小子的能力了\"}"
+                    ],
+                    "title": "愚公的反思",
+                    "author": "Fuzhao233"
+                }
+            },
+            {
+                "Slot": 12b,
+                "id": "minecraft:diamond",
+                "Count": 5b
+            },
+            {
+                "Slot": 13b,
+                "id": "projecte:nova_cataclysm",
+                "Count": 64b,
+                "tag": {
+                    "RepairCost": 0,
+                    "display": {
+                        "Name": "{\"text\":\"用superTNT炸\"}"
+                    }
+                }
+            },
+            {
+                "Slot": 14b,
+                "id": "minecraft:written_book",
+                "Count": 1b,
+                "tag": {
+                    "filtered_title": "愚公的惊叹",
+                    "pages": [
+                        "{\"text\":\"好像。。山快没了\"}"
+                    ],
+                    "title": "愚公的惊叹",
+                    "author": "Fuzhao233"
+                }
+            },
+            {
+                "Slot": 15b,
+                "id": "minecraft:gold_ingot",
+                "Count": 1b
+            },
+            {
+                "Slot": 16b,
+                "id": "minecraft:smooth_stone",
+                "Count": 64b
+            },
+            {
+                "Slot": 19b,
+                "id": "minecraft:cooked_rabbit",
+                "Count": 64b,
+                "tag": {
+                    "RepairCost": 0,
+                    "display": {
+                        "Name": "{\"text\":\"脑子里空想挖山\"}"
+                    }
+                }
+            },
+            {
+                "Slot": 20b,
+                "id": "born_in_chaos_v1:black_argillite_wall_n",
+                "Count": 64b,
+                "tag": {
+                    "RepairCost": 0,
+                    "display": {
+                        "Name": "{\"text\":\"挖山进度\"}"
+                    }
+                }
+            },
+            {
+                "Slot": 26b,
+                "id": "minecraft:netherite_ingot",
+                "Count": 5b,
+                "tag": {
+                    "RepairCost": 0,
+                    "display": {
+                        "Name": "{\"text\":\"坚持\"}"
+                    }
+                }
+            },
+            {
+                "Slot": 29b,
+                "id": "minecraft:netherite_ingot",
+                "Count": 10b,
+                "tag": {
+                    "RepairCost": 0,
+                    "display": {
+                        "Name": "{\"text\":\"坚持\"}"
+                    }
+                }
+            },
+            {
+                "Slot": 32b,
+                "id": "minecraft:netherite_ingot",
+                "Count": 64b,
+                "tag": {
+                    "RepairCost": 0,
+                    "display": {
+                        "Name": "{\"text\":\"坚持\"}"
+                    }
+                }
+            },
+            {
+                "Slot": 34b,
+                "id": "minecraft:smooth_stone",
+                "Count": 64b
+            }
+        ]
+    },
+    "pSpin": 0b,
+    "NpcHurtSound": "minecraft:entity.player.hurt",
+    "pTrail": 0,
+    "CreatureType": 0,
+    "Attributes": [
+        {
+            "Base": 0.0d,
+            "Name": "minecraft:generic.armor_toughness"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "forge:step_height_addition"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "minecraft:generic.attack_knockback"
+        },
+        {
+            "Base": 32.0d,
+            "Name": "minecraft:generic.follow_range"
+        },
+        {
+            "Base": 5.0d,
+            "Name": "minecraft:generic.attack_damage"
+        },
+        {
+            "Base": 0.08d,
+            "Name": "forge:entity_gravity"
+        },
+        {
+            "Base": 2000.0d,
+            "Name": "minecraft:generic.max_health"
+        },
+        {
+            "Base": 0.5d,
+            "Name": "minecraft:generic.flying_speed"
+        },
+        {
+            "Base": 8.0d,
+            "Name": "forge:swim_speed"
+        },
+        {
+            "Base": 0.1d,
+            "Name": "caelus:fall_flying"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "minecraft:generic.armor"
+        },
+        {
+            "Base": 0.25d,
+            "Name": "minecraft:generic.movement_speed"
+        }
+    ],
+    "Invulnerable": 0b,
+    "TransformHasDisplay": 0b,
+    "NoFallDamage": 0b,
+    "AbsorptionAmount": 0.0f,
+    "TransformHasRole": 0b,
+    "Name": "愚公",
+    "FallDistance": 0.0f,
+    "SkinColor": 16777215,
+    "NpcIdleSound": "",
+    "Weapons": [
+    ],
+    "NPCDialogOptions": [
+    ],
+    "AggroRange": 16,
+    "DirectLOS": 1b,
+    "HealthRegen": 1,
+    "ForgeCaps": {
+        "goety:misc": {
+            "shields": 0,
+            "clientTargetID": 0,
+            "mobTargetID": 0,
+            "shakeTime": 0,
+            "shieldTime": 0,
+            "ambientSoundTime": 0,
+            "freezeLevel": 0,
+            "customSpinTexture": "textures/entity/trident_riptide.png",
+            "shieldCool": 0
+        },
+        "curios:inventory": {
+            "Curios": [
+            ]
+        }
+    },
+    "HandDropChances": [
+        0.085f,
+        0.085f
+    ],
+    "NpcModelData": {
+        "CustomSkinUrl": "",
+        "BodyConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "MoveAnimation": 16,
+        "EntityName": "born_in_chaos_v1:zombie_lumberjack",
+        "Legs2Config": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "SimpleRender": 1b,
+        "ArmsConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "ExtraData": {
+        },
+        "HeadConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "LegsConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "Arms2Config": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "Parts": [
+        ],
+        "NewParts": [
+        ],
+        "WingMode": 0,
+        "DisplayName": "",
+        "Animation": 0,
+        "ModelType": 0,
+        "LastEdited": 1786628875277L
+    },
+    "VisibleAvailability": {
+        "AvailabilityQuestId": -1,
+        "AvailabilityScoreboardType": 1,
+        "AvailabilityFactionStance": 0,
+        "AvailabilityScoreboard2Value": 1,
+        "AvailabilityQuest": 0,
+        "AvailabilityDialog4": 0,
+        "AvailabilityScoreboardObjective": "",
+        "AvailabilityDialog3": 0,
+        "AvailabilityQuest2": 0,
+        "AvailabilityQuest3": 0,
+        "AvailabilityScoreboard2Objective": "",
+        "AvailabilityQuest4": 0,
+        "ModRev": 18,
+        "AvailabilityDialog2": 0,
+        "AvailabilityDayTime": 0,
+        "AvailabilityFaction2Id": -1,
+        "AvailabilityScoreboardValue": 1,
+        "AvailabilityFaction": 0,
+        "AvailabilityDialog": 0,
+        "AvailabilityScoreboard2Type": 1,
+        "AvailabilityFaction2": 0,
+        "AvailabilityFactionId": -1,
+        "AvailabilityFaction2Stance": 0,
+        "AvailabilityDialogId": -1,
+        "AvailabilityQuest4Id": -1,
+        "AvailabilityQuest3Id": -1,
+        "AvailabilityQuest2Id": -1,
+        "AvailabilityDialog2Id": -1,
+        "AvailabilityDialog3Id": -1,
+        "AvailabilityDialog4Id": -1,
+        "AvailabilityMinPlayerLevel": 0
+    },
+    "minDelay": 20,
+    "DoorInteract": 2,
+    "MoveSpeed": 5,
+    "TransformEditingModus": 0b,
+    "UsingSkinUrl": 0b,
+    "SkinUrl": "",
+    "CanSwim": 1b,
+    "TraderIgnoreNBT": 0b,
+    "GroundSound": "minecraft:block.stone.break",
+    "MountControl": 0b,
+    "MaxHealth": 2000,
+    "HideBodyWhenKilled": 0b,
+    "AttackSpeed": 20,
+    "PotionDuration": 5,
+    "maxDelay": 40,
+    "ScriptEnabled": 0b,
+    "Role": 1,
+    "DropChance": [
+        {
+            "Integer": 100.0f,
+            "Slot": 0
+        },
+        {
+            "Integer": 100.0f,
+            "Slot": 1
+        },
+        {
+            "Integer": 100.0f,
+            "Slot": 2
+        },
+        {
+            "Integer": 100.0f,
+            "Slot": 3
+        },
+        {
+            "Integer": 100.0f,
+            "Slot": 4
+        },
+        {
+            "Integer": 100.0f,
+            "Slot": 5
+        },
+        {
+            "Integer": 100.0f,
+            "Slot": 6
+        },
+        {
+            "Integer": 100.0f,
+            "Slot": 7
+        },
+        {
+            "Integer": 100.0f,
+            "Slot": 8
+        }
+    ],
+    "FactionPoints": {
+        "DecreaseFaction1Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFactions1": -1,
+        "OptionFactions2": -1,
+        "OptionFaction1Points": 100,
+        "DecreaseFaction2Points": 0b
+    },
+    "pDamage": 4,
+    "KilledTime": 0L,
+    "AimWhileShooting": 0b,
+    "CanPickUpLoot": 0b,
+    "AttackOtherFactions": 0b,
+    "CanDrown": 1b,
+    "LineColors": [I;-7522304,-88773,-5352703],
+    "pSize": 5,
+    "CanSprint": 0b,
+    "CanLeap": 0b,
+    "TransformIsActive": 0b,
+    "ForgeData": {
+        "cnpcmarkdata": {
+            "marks": [
+            ]
+        },
+        "posture": 0,
+        "frost_status": 0,
+        "despawn_timer": 0,
+        "bleed": 0,
+        "frost_cooling_down": 0b
+    },
+    "MovingState": 0,
+    "MovingPos": 0,
+    "PotionAmp": 0,
+    "OnAttack": 0,
+    "TacticalRadius": 4,
+    "FallFlying": 0b,
+    "MaxExp": 0,
+    "OrderedLines": 0b,
+    "PortalCooldown": 0,
+    "pGlows": 0b,
+    "TransformHasAdvanced": 0b,
+    "TransformHasStats": 0b,
+    "MovementType": 0,
+    "FiringSound": "minecraft:entity.arrow.shoot",
+    "ModRev": 18,
+    "Accuracy": 60,
+    "MinExp": 0,
+    "Armor": [
+    ],
+    "CloakTexture": "",
+    "GlowTexture": "",
+    "MaxFiringRange": 15,
+    "pXlr8": 0b,
+    "MarkovGeneratorId": 1,
+    "Scripts": [
+    ],
+    "Health": 2000.0f,
+    "pStick": 0b,
+    "MovingPause": 1b,
+    "NpcDeathSound": "minecraft:entity.player.hurt",
+    "FactionID": 0,
+    "Title": "",
+    "TotalTicksAlive": 3272825L,
+    "Rotation": [
+        -70.19657f,
+        0.0f
+    ],
+    "ShowName": 0,
+    "npcInteracting": 1b,
+    "AvoidsWater": 0b,
+    "NoLivingAnimation": 0b,
+    "SpawnCycle": 0
+}

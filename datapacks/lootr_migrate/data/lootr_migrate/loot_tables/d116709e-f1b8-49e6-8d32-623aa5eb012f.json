@@ -1,0 +1,111 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "farmersdelight:tomato",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:constant",
+                "value": 1
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{RepairCost:0,display:{Name:\"{\\\"text\\\":\\\"加一颗心心\\\"}\"}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "goety:reinforced_ice_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:constant",
+                "value": 1
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{RepairCost:1,Damage:0,affix_data:{gems:[{id:\"apotheosis:gem\",Count:1b,tag:{affix_data:{rarity:\"apotheosis:common\"},gem:\"apotheosis:core/brawlers\",uuids:[[I;342173433,-1131395267,-1386801986,-525034241]]}},{id:\"apotheosis:gem\",Count:1b,tag:{affix_data:{rarity:\"apotheosis:common\"},gem:\"apotheosis:core/brawlers\",uuids:[[I;-2123378246,453133620,-2019823771,-1615369140]]}},{id:\"apotheosis:gem\",Count:62b,tag:{affix_data:{rarity:\"apotheosis:common\"},gem:\"apotheosis:core/brawlers\",uuids:[[I;2079312604,455888869,-1762548575,-1501816037]]}}],sockets:3},Enchantments:[{lvl:50s,id:\"minecraft:sharpness\"},{lvl:1s,id:\"l2complements:eternal\"}],display:{Lore:[\"{\\\"text\\\":\\\"不仅能爬山，还能凿人\\\",\\\"italic\\\":false}\"]}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "farmersdelight:tomato",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:constant",
+                "value": 1
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{RepairCost:0,display:{Name:\"{\\\"text\\\":\\\"加一颗心心\\\"}\"}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:constant",
+                "value": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:constant",
+                "value": 1
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{SkullOwner:{Id:[I;783546609,-605862583,-1147954111,-177081711],Properties:{textures:[{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTc4NzExMzk1ODgyMywKICAicHJvZmlsZUlkIiA6ICIyZWIzZjhmMWRiZTM0NTQ5YmI5MzljNDFmNTcxZjI5MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJGdXpoYW8yMzMiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmIwMjI1NjIyNTM5YjU3YjYzNDIyYjAyZTI2MGQ2MDliYzA4OTA5ZTEyMWUzZDhjZWQ5OTU0MDA2MTExMWMwMCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]},Name:\"Fuzhao233\"}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

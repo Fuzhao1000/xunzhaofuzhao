@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "soulsweapons:bloodlust",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:constant",
+                "value": 1
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{GeckoLibID:1L,RepairCost:15,affix_data:{gems:[{id:\"apotheosis:gem\",Count:1b,tag:{affix_data:{rarity:\"apotheosis:ancient\"},gem:\"apotheosis:the_end/endersurge\"}},{id:\"apotheosis:gem\",Count:1b,tag:{affix_data:{rarity:\"apotheosis:ancient\"},gem:\"apotheosis:core/brawlers\",uuids:[[I;1521426938,31867500,-1394330145,-1616545783]]}},{id:\"apotheosis:gem\",Count:1b,tag:{affix_data:{rarity:\"apotheosis:ancient\"},gem:\"apotheosis:core/ballast\",uuids:[[I;-1358058615,-1982446775,-1922214367,-347587219]]}}],sockets:3},Damage:0,Enchantments:[{lvl:9s,id:\"minecraft:sharpness\"},{lvl:1s,id:\"l2complements:eternal\"},{lvl:10s,id:\"minecraft:bane_of_arthropods\"},{lvl:1s,id:\"miracle_enchantment:bane_of_all_magic\"}]}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "soulsweapons:bloodthirster",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:constant",
+                "value": 1
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Damage:0}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

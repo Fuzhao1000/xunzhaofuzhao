@@ -1,0 +1,99 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:experience_bottle",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:constant",
+                "value": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:experience_bottle",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:constant",
+                "value": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "securitycraft:briefcase",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:constant",
+                "value": 1
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{owner:\"Fuzhao233\",ownerUUID:\"2eb3f8f1-dbe3-4549-bb93-9c41f571f291\",saltKey:[I;153175656,-243316807,-1236149849,-403321138],RepairCost:0,ItemInventory:[{Slot:0,id:\"minecraft:experience_bottle\",Count:1b,tag:{}},{Slot:1,id:\"minecraft:experience_bottle\",Count:1b,tag:{}},{Slot:2,id:\"goety:updraft_focus\",Count:1b,tag:{RepairCost:3,Enchantments:[{lvl:6s,id:\"goety:duration\"},{lvl:7s,id:\"goety:potency\"}],display:{Lore:[\"{\\\"text\\\":\\\"给我高高的飞起来\\\",\\\"italic\\\":false}\",\"{\\\"text\\\":\\\"十几伤害\\\",\\\"italic\\\":false}\"],Name:\"{\\\"text\\\":\\\"上升气流\\\"}\"}}},{Slot:3,id:\"minecraft:experience_bottle\",Count:1b,tag:{}},{Slot:4,id:\"minecraft:experience_bottle\",Count:1b,tag:{}},{Slot:5,id:\"minecraft:experience_bottle\",Count:1b,tag:{}},{Slot:6,id:\"minecraft:experience_bottle\",Count:1b,tag:{}},{Slot:7,id:\"minecraft:experience_bottle\",Count:1b,tag:{}},{Slot:8,id:\"minecraft:gold_block\",Count:2b,tag:{}},{Slot:9,id:\"minecraft:gold_block\",Count:2b,tag:{}},{Slot:10,id:\"minecraft:gold_block\",Count:2b,tag:{}},{Slot:11,id:\"minecraft:gold_block\",Count:2b,tag:{}}],display:{Name:\"{\\\"text\\\":\\\"绿宝石宝藏\\\"}\"},passcode:\"b830ec0cea31a037a05af4177d68a39a\"}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:experience_bottle",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:constant",
+                "value": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:experience_bottle",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:constant",
+                "value": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

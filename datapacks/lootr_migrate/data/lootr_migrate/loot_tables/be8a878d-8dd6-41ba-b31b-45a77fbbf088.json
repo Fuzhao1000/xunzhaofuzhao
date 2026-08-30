@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "goety:void_key",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:constant",
+                "value": 1
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Lore:[\"{\\\"text\\\":\\\"右键虚空屏障召唤boss\\\",\\\"italic\\\":false}\"]}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

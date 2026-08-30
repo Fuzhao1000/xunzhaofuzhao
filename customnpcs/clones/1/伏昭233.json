@@ -1,0 +1,872 @@
+{
+    "ReturnToStart": 1b,
+    "Brain": {
+        "memories": {
+        }
+    },
+    "NpcInv": [
+        {
+            "Slot": 0b,
+            "id": "minecraft:written_book",
+            "Count": 1b,
+            "tag": {
+                "filtered_title": "完结撒花",
+                "pages": [
+                    "{\"text\":\"这只不过是伏昭创造的一个世界，想在游戏中找到伏昭是不可能的，伏昭在这里可以是任何生物，包括你自己。\"}"
+                ],
+                "title": "完结撒花",
+                "author": "Fuzhao233"
+            }
+        },
+        {
+            "Slot": 1b,
+            "id": "minecraft:player_head",
+            "Count": 1b,
+            "tag": {
+                "SkullOwner": {
+                    "Id": [I;783546609,-605862583,-1147954111,-177081711],
+                    "Properties": {
+                        "textures": [
+                            {
+                                "Value": "ewogICJ0aW1lc3RhbXAiIDogMTc4NzczODA3NjUyOSwKICAicHJvZmlsZUlkIiA6ICIyZWIzZjhmMWRiZTM0NTQ5YmI5MzljNDFmNTcxZjI5MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJGdXpoYW8yMzMiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmIwMjI1NjIyNTM5YjU3YjYzNDIyYjAyZTI2MGQ2MDliYzA4OTA5ZTEyMWUzZDhjZWQ5OTU0MDA2MTExMWMwMCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+                            }
+                        ]
+                    },
+                    "Name": "Fuzhao233"
+                }
+            }
+        }
+    ],
+    "BossColor": 0,
+    "PotionEffect": 0,
+    "Size": 20.0f,
+    "stopAndInteract": 1b,
+    "Resistances": {
+        "Arrow": 1.5070423f,
+        "Explosion": 1.5014085f,
+        "Knockback": 2.0f,
+        "Melee": 1.5042254f
+    },
+    "BossBar": 0b,
+    "RespawnTime": 300,
+    "NpcAngrySound": "",
+    "ReactsToFire": 0b,
+    "IgnoreCobweb": 1b,
+    "PositionOffsetZ": 5.0f,
+    "PositionOffsetY": 5.0f,
+    "PositionOffsetX": 5.0f,
+    "CanUpdate": 1b,
+    "LootMode": 0,
+    "TransformHasAI": 0b,
+    "AttackStrenght": 1,
+    "PersistenceRequired": 0b,
+    "id": "customnpcs:customnpc",
+    "IsStatue": 0b,
+    "MovingPatern": 0,
+    "NpcLines": {
+        "Lines": [
+            {
+                "Line": "都得死！！！",
+                "Song": "",
+                "Slot": 0
+            }
+        ]
+    },
+    "DefendFaction": 0b,
+    "FireIndirect": 0,
+    "NpcVisible": 0,
+    "LinkedNpcName": "",
+    "NpcScenes": {
+        "Scenes": [
+        ]
+    },
+    "HitSound": "minecraft:entity.arrow.hit",
+    "FindShelter": 2,
+    "Air": 300s,
+    "TacticalVariant": 0,
+    "Orientation": 0,
+    "ScriptLanguage": "ECMAScript",
+    "HandItems": [
+        {
+        },
+        {
+        }
+    ],
+    "KnockBack": 0,
+    "TransformHasJob": 0b,
+    "ArmorDropChances": [
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f
+    ],
+    "BurnInSun": 0b,
+    "StandingState": 0,
+    "ShowLayers": 1b,
+    "AttackInvisible": 0b,
+    "NpcInteractNPCLines": {
+        "Lines": [
+        ]
+    },
+    "HurtTime": 0s,
+    "WalkingRange": 10,
+    "ShotCount": 1,
+    "pDur": 5,
+    "AttackRange": 5.0f,
+    "ActiveRange": 32,
+    "NpcKillLines": {
+        "Lines": [
+            {
+                "Line": "都得死！！！",
+                "Song": "",
+                "Slot": 0
+            }
+        ]
+    },
+    "PotionImmune": 1b,
+    "AvoidsSun": 0b,
+    "Texture": "soulsweapons:textures/entity/chungus/big_chungus.png",
+    "NpcJob": 0,
+    "BurstCount": 1,
+    "NpcAttackLines": {
+        "Lines": [
+            {
+                "Line": "都得死！！！",
+                "Song": "",
+                "Slot": 0
+            }
+        ]
+    },
+    "pSpeed": 10,
+    "pArea": 0,
+    "DeathTime": 0s,
+    "pImpact": 0,
+    "MoveState": 0,
+    "pRender3D": 1b,
+    "BalmData": {
+    },
+    "Motion": [
+        0.0d,
+        -0.0784000015258789d,
+        0.0d
+    ],
+    "CombatRegen": 0,
+    "NpcsTimers": [
+    ],
+    "MarkovGender": 0,
+    "pEffect": 0,
+    "DistanceToMelee": 0,
+    "NpcStepSound": "",
+    "FireRate": 5,
+    "LeftHanded": 0b,
+    "pEffAmp": 0,
+    "OnGround": 1b,
+    "ImmuneToFire": 1b,
+    "OverlayGlowing": 1b,
+    "NpcKilledLines": {
+        "Lines": [
+            {
+                "Line": "都得死！！！",
+                "Song": "",
+                "Slot": 0
+            }
+        ]
+    },
+    "Fire": -1s,
+    "ArmorItems": [
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        }
+    ],
+    "DisablePitch": 0b,
+    "pPhysics": 1b,
+    "TransformHasInv": 0b,
+    "NpcInteractLines": {
+        "Lines": [
+            {
+                "Line": "都得死！！！",
+                "Song": "",
+                "Slot": 0
+            }
+        ]
+    },
+    "HurtByTimestamp": 2319,
+    "pSpin": 0b,
+    "NpcHurtSound": "minecraft:entity.player.hurt",
+    "pTrail": 0,
+    "CreatureType": 0,
+    "Attributes": [
+        {
+            "Base": 0.0d,
+            "Name": "forge:step_height_addition"
+        },
+        {
+            "Base": 100.0d,
+            "Name": "irons_spellbooks:max_mana"
+        },
+        {
+            "Base": 8.0d,
+            "Name": "forge:swim_speed"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "l2damagetracker:magic_damage"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "minecraft:generic.armor_toughness"
+        },
+        {
+            "Base": 0.5d,
+            "Name": "minecraft:generic.flying_speed"
+        },
+        {
+            "Base": 0.25d,
+            "Name": "minecraft:generic.movement_speed"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "minecraft:generic.armor"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "minecraft:generic.knockback_resistance"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "l2damagetracker:damage_absorption"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "minecraft:generic.attack_knockback"
+        },
+        {
+            "Base": 0.08d,
+            "Name": "forge:entity_gravity"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "irons_spellbooks:cooldown_reduction"
+        },
+        {
+            "Base": 32.0d,
+            "Name": "minecraft:generic.follow_range"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "irons_spellbooks:spell_resist"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "minecraft:generic.attack_damage"
+        },
+        {
+            "Base": 0.1d,
+            "Name": "caelus:fall_flying"
+        },
+        {
+            "Base": 1.0d,
+            "Name": "l2damagetracker:damage_reduction"
+        },
+        {
+            "Base": 992.0d,
+            "Name": "minecraft:generic.max_health"
+        }
+    ],
+    "Invulnerable": 0b,
+    "TransformHasDisplay": 0b,
+    "NoFallDamage": 1b,
+    "AbsorptionAmount": 0.0f,
+    "TransformHasRole": 0b,
+    "Name": "伏昭233",
+    "FallDistance": 0.0f,
+    "SkinColor": 16777215,
+    "NpcIdleSound": "",
+    "Weapons": [
+        {
+            "Slot": 0b,
+            "ForgeCaps": {
+                "Parent": {
+                    "Size": 1,
+                    "Items": [
+                        {
+                            "Slot": 0,
+                            "id": "goety:void_flash_focus",
+                            "Count": 1b,
+                            "tag": {
+                            }
+                        }
+                    ]
+                }
+            },
+            "id": "goety:dark_wand",
+            "Count": 1b,
+            "tag": {
+                "Soul Cost": 21,
+                "RepairCost": 1,
+                "Soul Use": 21,
+                "display": {
+                    "Name": "{\"text\":\"通用魔杖\"}"
+                },
+                "Enchantments": [
+                    {
+                        "lvl": 7s,
+                        "id": "goety:potency"
+                    }
+                ],
+                "Cool": 0,
+                "Duration": 86,
+                "Cast Time": 86,
+                "cap": {
+                    "Size": 1,
+                    "Items": [
+                        {
+                            "Slot": 0,
+                            "id": "goety:void_flash_focus",
+                            "Count": 1b,
+                            "tag": {
+                            }
+                        }
+                    ]
+                },
+                "goety-dirty": 1b,
+                "Seconds": 18,
+                "Shots": 0
+            }
+        }
+    ],
+    "NPCDialogOptions": [
+    ],
+    "AggroRange": 32,
+    "DirectLOS": 1b,
+    "HealthRegen": 10000,
+    "ForgeCaps": {
+        "goety:misc": {
+            "shields": 0,
+            "clientTargetID": 0,
+            "mobTargetID": 0,
+            "shakeTime": 0,
+            "shieldTime": 0,
+            "ambientSoundTime": 0,
+            "freezeLevel": 0,
+            "customSpinTexture": "textures/entity/trident_riptide.png",
+            "shieldCool": 0
+        },
+        "curios:inventory": {
+            "Curios": [
+            ]
+        }
+    },
+    "HandDropChances": [
+        0.085f,
+        0.085f
+    ],
+    "NpcModelData": {
+        "CustomSkinUrl": "",
+        "BodyConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "MoveAnimation": 16,
+        "EntityName": "soulsweapons:big_chungus",
+        "Legs2Config": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "SimpleRender": 0b,
+        "ArmsConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "ExtraData": {
+        },
+        "HeadConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "LegsConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "Arms2Config": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "Parts": [
+        ],
+        "NewParts": [
+        ],
+        "WingMode": 0,
+        "DisplayName": "",
+        "Animation": 0,
+        "ModelType": 0,
+        "LastEdited": 1787744154529L
+    },
+    "VisibleAvailability": {
+        "AvailabilityQuestId": -1,
+        "AvailabilityScoreboardType": 1,
+        "AvailabilityFactionStance": 0,
+        "AvailabilityScoreboard2Value": 1,
+        "AvailabilityQuest": 0,
+        "AvailabilityDialog4": 0,
+        "AvailabilityScoreboardObjective": "",
+        "AvailabilityDialog3": 0,
+        "AvailabilityQuest2": 0,
+        "AvailabilityQuest3": 0,
+        "AvailabilityScoreboard2Objective": "",
+        "AvailabilityQuest4": 0,
+        "ModRev": 18,
+        "AvailabilityDialog2": 0,
+        "AvailabilityDayTime": 0,
+        "AvailabilityFaction2Id": -1,
+        "AvailabilityScoreboardValue": 1,
+        "AvailabilityFaction": 0,
+        "AvailabilityDialog": 0,
+        "AvailabilityScoreboard2Type": 1,
+        "AvailabilityFaction2": 0,
+        "AvailabilityFactionId": -1,
+        "AvailabilityFaction2Stance": 0,
+        "AvailabilityDialogId": -1,
+        "AvailabilityQuest4Id": -1,
+        "AvailabilityQuest3Id": -1,
+        "AvailabilityQuest2Id": -1,
+        "AvailabilityDialog2Id": -1,
+        "AvailabilityDialog3Id": -1,
+        "AvailabilityDialog4Id": -1,
+        "AvailabilityMinPlayerLevel": 0
+    },
+    "minDelay": 20,
+    "DoorInteract": 2,
+    "MoveSpeed": 5,
+    "TransformEditingModus": 0b,
+    "UsingSkinUrl": 0b,
+    "SkinUrl": "",
+    "CanSwim": 1b,
+    "GroundSound": "minecraft:block.stone.break",
+    "MountControl": 0b,
+    "MaxHealth": 992,
+    "HideBodyWhenKilled": 0b,
+    "AttackSpeed": 20,
+    "PotionDuration": 5,
+    "maxDelay": 40,
+    "ScriptEnabled": 0b,
+    "Role": 0,
+    "DropChance": [
+        {
+            "Integer": 100.0f,
+            "Slot": 0
+        },
+        {
+            "Integer": 100.0f,
+            "Slot": 1
+        },
+        {
+            "Integer": 100.0f,
+            "Slot": 2
+        },
+        {
+            "Integer": 100.0f,
+            "Slot": 3
+        },
+        {
+            "Integer": 100.0f,
+            "Slot": 4
+        },
+        {
+            "Integer": 100.0f,
+            "Slot": 5
+        },
+        {
+            "Integer": 100.0f,
+            "Slot": 6
+        },
+        {
+            "Integer": 100.0f,
+            "Slot": 7
+        },
+        {
+            "Integer": 100.0f,
+            "Slot": 8
+        }
+    ],
+    "FactionPoints": {
+        "DecreaseFaction1Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFactions1": -1,
+        "OptionFactions2": -1,
+        "OptionFaction1Points": 100,
+        "DecreaseFaction2Points": 0b
+    },
+    "pDamage": 4,
+    "KilledTime": 0L,
+    "AimWhileShooting": 0b,
+    "CanPickUpLoot": 0b,
+    "AttackOtherFactions": 0b,
+    "CanDrown": 0b,
+    "LineColors": [I;-7522304,-88773,-5352703],
+    "pSize": 5,
+    "CanSprint": 0b,
+    "CanLeap": 0b,
+    "TransformIsActive": 0b,
+    "ForgeData": {
+        "cnpcmarkdata": {
+            "marks": [
+            ]
+        },
+        "apoth.affix_cooldown.apotheosis:berserkers_fury": 6793164L,
+        "posture": 0,
+        "frost_status": -3,
+        "despawn_timer": 0,
+        "bleed": 0,
+        "frost_cooling_down": 0b
+    },
+    "MovingState": 0,
+    "MovingPos": 0,
+    "PotionAmp": 0,
+    "OnAttack": 0,
+    "TacticalRadius": 4,
+    "FallFlying": 0b,
+    "MaxExp": 10000,
+    "OrderedLines": 0b,
+    "PortalCooldown": 0,
+    "pGlows": 0b,
+    "TransformHasAdvanced": 0b,
+    "TransformHasStats": 0b,
+    "MovementType": 0,
+    "FiringSound": "minecraft:entity.arrow.shoot",
+    "ModRev": 18,
+    "Accuracy": 60,
+    "MinExp": 10000,
+    "Armor": [
+        {
+            "Slot": 0b,
+            "id": "legendary_monsters:annihilator_helmet",
+            "Count": 1b,
+            "tag": {
+                "affix_data": {
+                    "gems": [
+                        {
+                            "id": "apotheosis:gem",
+                            "Count": 64b,
+                            "tag": {
+                                "affix_data": {
+                                    "rarity": "apotheosis:ancient"
+                                },
+                                "gem": "apotheosis:the_end/endersurge"
+                            }
+                        },
+                        {
+                            "id": "minecraft:air",
+                            "Count": 1b
+                        },
+                        {
+                            "id": "minecraft:air",
+                            "Count": 1b
+                        }
+                    ],
+                    "affixes": {
+                        "apotheosis:armor/attribute/stalwart": 0.8289444f,
+                        "apotheosis:armor/dmg_reduction/runed": 0.22139049f,
+                        "irons_spellbooks:armor/attribute/cooldown": 0.124721766f,
+                        "apotheosis:armor/mob_effect/blinding": 0.8994348f,
+                        "apotheosis:armor/attribute/fortunate": 0.70595616f,
+                        "apotheosis:armor/attribute/ironforged": 0.96814823f,
+                        "apotheosis:durable": 0.39999998f
+                    },
+                    "name": "{\"color\":\"#ED7014\",\"translate\":\"misc.apotheosis.affix_name.three\",\"with\":[{\"translate\":\"affix.apotheosis:armor/attribute/ironforged\"},\"\",{\"translate\":\"affix.apotheosis:armor/dmg_reduction/runed.suffix\"}]}",
+                    "sockets": 3,
+                    "rarity": "apotheosis:mythic",
+                    "uuids": [
+                        [I;1023230549,-1173270886,-1758662682,1580237653]
+                    ]
+                },
+                "Damage": 0,
+                "Enchantments": [
+                    {
+                        "lvl": 7s,
+                        "id": "minecraft:unbreaking"
+                    },
+                    {
+                        "lvl": 8s,
+                        "id": "minecraft:blast_protection"
+                    },
+                    {
+                        "lvl": 1s,
+                        "id": "minecraft:aqua_affinity"
+                    },
+                    {
+                        "lvl": 7s,
+                        "id": "minecraft:respiration"
+                    },
+                    {
+                        "lvl": 3s,
+                        "id": "apotheosis:life_mending"
+                    },
+                    {
+                        "lvl": 7s,
+                        "id": "minecraft:protection"
+                    }
+                ]
+            }
+        },
+        {
+            "Slot": 1b,
+            "id": "legendary_monsters:annihilator_chestplate",
+            "Count": 1b,
+            "tag": {
+                "affix_data": {
+                    "gems": [
+                        {
+                            "id": "apotheosis:gem",
+                            "Count": 63b,
+                            "tag": {
+                                "affix_data": {
+                                    "rarity": "apotheosis:ancient"
+                                },
+                                "gem": "apotheosis:the_end/endersurge"
+                            }
+                        },
+                        {
+                            "id": "minecraft:air",
+                            "Count": 1b
+                        }
+                    ],
+                    "affixes": {
+                        "irons_spellbooks:armor/attribute/mana": 0.90631753f,
+                        "apotheosis:armor/dmg_reduction/runed": 0.05599767f,
+                        "irons_spellbooks:armor/attribute/cooldown": 0.2266404f,
+                        "irons_spellbooks:armor/attribute/spell_resist": 0.33057463f,
+                        "apotheosis:armor/dmg_reduction/blast_forged": 0.77893347f,
+                        "apotheosis:armor/attribute/ironforged": 0.80557233f,
+                        "apotheosis:durable": 0.35999998f
+                    },
+                    "name": "{\"color\":\"#ED7014\",\"translate\":\"misc.apotheosis.affix_name.three\",\"with\":[{\"translate\":\"affix.irons_spellbooks:armor/attribute/spell_resist\"},\"\",{\"translate\":\"affix.irons_spellbooks:armor/attribute/cooldown.suffix\"}]}",
+                    "sockets": 2,
+                    "rarity": "apotheosis:mythic",
+                    "uuids": [
+                        [I;947825782,-1430042914,-1718127173,-1160775300]
+                    ]
+                },
+                "Damage": 0,
+                "Enchantments": [
+                    {
+                        "lvl": 6s,
+                        "id": "minecraft:unbreaking"
+                    },
+                    {
+                        "lvl": 4s,
+                        "id": "apotheosis:rebounding"
+                    },
+                    {
+                        "lvl": 7s,
+                        "id": "minecraft:blast_protection"
+                    },
+                    {
+                        "lvl": 4s,
+                        "id": "minecraft:thorns"
+                    },
+                    {
+                        "lvl": 1s,
+                        "id": "apotheosis:berserkers_fury"
+                    },
+                    {
+                        "lvl": 2s,
+                        "id": "apotheosis:life_mending"
+                    }
+                ]
+            }
+        },
+        {
+            "Slot": 2b,
+            "id": "legendary_monsters:annihilator_leggings",
+            "Count": 1b,
+            "tag": {
+                "affix_data": {
+                    "gems": [
+                        {
+                            "id": "apotheosis:gem",
+                            "Count": 62b,
+                            "tag": {
+                                "affix_data": {
+                                    "rarity": "apotheosis:ancient"
+                                },
+                                "gem": "apotheosis:the_end/endersurge"
+                            }
+                        },
+                        {
+                            "id": "minecraft:air",
+                            "Count": 1b
+                        },
+                        {
+                            "id": "minecraft:air",
+                            "Count": 1b
+                        }
+                    ],
+                    "affixes": {
+                        "apotheosis:armor/attribute/windswept": 0.45045573f,
+                        "apotheosis:armor/dmg_reduction/runed": 0.6602693f,
+                        "apotheosis:armor/attribute/fortunate": 0.37432063f,
+                        "apotheosis:armor/dmg_reduction/blast_forged": 0.4989636f,
+                        "apotheosis:armor/attribute/ironforged": 0.6928134f,
+                        "apotheosis:durable": 0.35999998f,
+                        "apotheosis:armor/attribute/blessed": 0.9019554f
+                    },
+                    "name": "{\"color\":\"#ED7014\",\"translate\":\"misc.apotheosis.affix_name.three\",\"with\":[{\"translate\":\"affix.apotheosis:armor/attribute/fortunate\"},\"\",{\"translate\":\"affix.apotheosis:armor/dmg_reduction/runed.suffix\"}]}",
+                    "sockets": 3,
+                    "rarity": "apotheosis:mythic",
+                    "uuids": [
+                        [I;-5468487,-1214559844,-1464048958,647413556]
+                    ]
+                },
+                "Damage": 0,
+                "Enchantments": [
+                    {
+                        "lvl": 7s,
+                        "id": "minecraft:fire_protection"
+                    },
+                    {
+                        "lvl": 2s,
+                        "id": "apotheosis:life_mending"
+                    },
+                    {
+                        "lvl": 7s,
+                        "id": "minecraft:protection"
+                    },
+                    {
+                        "lvl": 4s,
+                        "id": "apotheosis:rebounding"
+                    },
+                    {
+                        "lvl": 7s,
+                        "id": "minecraft:unbreaking"
+                    }
+                ]
+            }
+        },
+        {
+            "Slot": 3b,
+            "id": "legendary_monsters:annihilator_boots",
+            "Count": 1b,
+            "tag": {
+                "affix_data": {
+                    "gems": [
+                        {
+                            "id": "apotheosis:gem",
+                            "Count": 61b,
+                            "tag": {
+                                "affix_data": {
+                                    "rarity": "apotheosis:ancient"
+                                },
+                                "gem": "apotheosis:the_end/endersurge"
+                            }
+                        },
+                        {
+                            "id": "minecraft:air",
+                            "Count": 1b
+                        }
+                    ],
+                    "affixes": {
+                        "apotheosis:armor/mob_effect/nimble": 0.9591743f,
+                        "apotheosis:armor/attribute/aquatic": 0.16584373f,
+                        "apotheosis:armor/attribute/elastic": 0.21192372f,
+                        "apotheosis:armor/dmg_reduction/feathery": 0.80115575f,
+                        "irons_spellbooks:armor/attribute/spell_resist": 0.43519032f,
+                        "apotheosis:armor/attribute/steel_touched": 0.6969548f,
+                        "apotheosis:durable": 0.37f
+                    },
+                    "name": "{\"color\":\"#ED7014\",\"translate\":\"misc.apotheosis.affix_name.three\",\"with\":[{\"translate\":\"affix.irons_spellbooks:armor/attribute/spell_resist\"},\"\",{\"translate\":\"affix.apotheosis:armor/attribute/steel_touched.suffix\"}]}",
+                    "sockets": 2,
+                    "rarity": "apotheosis:mythic",
+                    "uuids": [
+                        [I;290561029,583680886,-1939409360,1291971888]
+                    ]
+                },
+                "Damage": 0,
+                "Enchantments": [
+                    {
+                        "lvl": 7s,
+                        "id": "minecraft:fire_protection"
+                    },
+                    {
+                        "lvl": 2s,
+                        "id": "apotheosis:life_mending"
+                    },
+                    {
+                        "lvl": 5s,
+                        "id": "minecraft:depth_strider"
+                    },
+                    {
+                        "lvl": 6s,
+                        "id": "minecraft:protection"
+                    },
+                    {
+                        "lvl": 1s,
+                        "id": "apotheosis:stable_footing"
+                    },
+                    {
+                        "lvl": 6s,
+                        "id": "minecraft:unbreaking"
+                    }
+                ]
+            }
+        }
+    ],
+    "CloakTexture": "",
+    "GlowTexture": "",
+    "MaxFiringRange": 15,
+    "pXlr8": 0b,
+    "MarkovGeneratorId": 3,
+    "Scripts": [
+    ],
+    "Health": 1000.0f,
+    "pStick": 0b,
+    "MovingPause": 1b,
+    "NpcDeathSound": "minecraft:entity.player.hurt",
+    "FactionID": 1,
+    "Title": "",
+    "TotalTicksAlive": 14957L,
+    "Rotation": [
+        262.70007f,
+        0.0f
+    ],
+    "ShowName": 0,
+    "npcInteracting": 1b,
+    "AvoidsWater": 0b,
+    "NoLivingAnimation": 0b,
+    "SpawnCycle": 0
+}

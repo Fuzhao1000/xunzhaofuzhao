@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "born_in_chaos_v1:creepy_gift",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:constant",
+                "value": 2
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{RepairCost:0,display:{Lore:[\"{\\\"text\\\":\\\"大奖50万\\\",\\\"italic\\\":false}\"],Name:\"{\\\"text\\\":\\\"刮刮乐\\\"}\"}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:constant",
+                "value": 1
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{filtered_title:\"赌徒的了解\",pages:[\"{\\\"text\\\":\\\"听说伏昭开了一个刮刮乐就赚了50万\\\"}\"],title:\"赌徒的了解\",author:\"Fuzhao233\"}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

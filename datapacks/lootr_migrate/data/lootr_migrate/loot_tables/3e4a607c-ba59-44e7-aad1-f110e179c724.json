@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "bountifulbaubles:shulker_heart",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:constant",
+                "value": 1
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{BaubleModifier:{Value:0.01d,UUID:[I;1455354107,-1811592619,-1122507945,1063546125],Attribute:\"minecraft:generic.movement_speed\",TranslationKey:\"modifier.bountifulbaubles.brisk\"},IsInitialized:1b}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

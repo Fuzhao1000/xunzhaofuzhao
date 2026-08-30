@@ -1,0 +1,93 @@
+{
+    "DialogShowWheel": 0b,
+    "AvailabilityQuestId": -1,
+    "Options": [
+        {
+            "OptionSlot": 0,
+            "Option": {
+                "DialogCommand": "",
+                "Dialog": -1,
+                "Title": "再见",
+                "DialogColor": 14737632,
+                "OptionType": 0
+            }
+        }
+    ],
+    "AvailabilityScoreboardType": 1,
+    "DialogHideNPC": 0b,
+    "AvailabilityFactionStance": 0,
+    "AvailabilityScoreboard2Value": 1,
+    "DialogId": 102,
+    "AvailabilityQuest": 0,
+    "AvailabilityDialog4": 0,
+    "AvailabilityScoreboardObjective": "",
+    "AvailabilityDialog3": 0,
+    "AvailabilityQuest2": 0,
+    "AvailabilityQuest3": 0,
+    "AvailabilityScoreboard2Objective": "",
+    "AvailabilityQuest4": 0,
+    "ModRev": 18,
+    "DecreaseFaction1Points": 0b,
+    "DialogQuest": -1,
+    "AvailabilityDialog2": 2,
+    "OptionFactions1": -1,
+    "AvailabilityDayTime": 0,
+    "OptionFactions2": -1,
+    "AvailabilityFaction2Id": -1,
+    "OptionFaction1Points": 100,
+    "AvailabilityScoreboardValue": 1,
+    "DialogDisableEsc": 0b,
+    "AvailabilityFaction": 0,
+    "DialogTitle": "贪心回复",
+    "AvailabilityDialog": 2,
+    "AvailabilityScoreboard2Type": 1,
+    "AvailabilityFaction2": 0,
+    "AvailabilityFactionId": -1,
+    "AvailabilityFaction2Stance": 0,
+    "DialogCommand": "",
+    "AvailabilityDialogId": 102,
+    "OptionFaction2Points": 100,
+    "DialogText": "哼，贪心的家伙！但是这钻石斧头，我给你了。",
+    "AvailabilityQuest4Id": -1,
+    "AvailabilityQuest3Id": -1,
+    "AvailabilityQuest2Id": -1,
+    "AvailabilityDialog2Id": 101,
+    "AvailabilityDialog3Id": -1,
+    "AvailabilityDialog4Id": -1,
+    "AvailabilityMinPlayerLevel": 0,
+    "DecreaseFaction2Points": 0b,
+    "DialogMail": {
+        "Sender": "河神",
+        "BeenRead": 0b,
+        "Message": {
+            "text": "贪心要付出代价……但这把钻石斧还是给你了。"
+        },
+        "MailItems": [
+            {
+                "Slot": 0b,
+                "id": "minecraft:diamond_axe",
+                "Count": 1b,
+                "tag": {
+                    "RepairCost": 1,
+                    "Damage": 0,
+                    "display": {
+                        "Lore": [
+                            "{\"text\":\"太重了，你拿不起来\",\"italic\":false}"
+                        ],
+                        "Name": "{\"text\":\"沉重的钻石斧\"}"
+                    },
+                    "Enchantments": [
+                        {
+                            "lvl": 9s,
+                            "id": "l2weaponry:heavy"
+                        }
+                    ]
+                }
+            }
+        ],
+        "MailQuest": -1,
+        "TimePast": 1786438247854L,
+        "Time": 0L,
+        "Subject": "钻石斧子"
+    }
+}

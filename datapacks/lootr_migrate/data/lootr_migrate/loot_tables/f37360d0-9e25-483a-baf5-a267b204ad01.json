@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "waystones:bound_scroll",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:constant",
+                "value": 64
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{WaystonesBoundTo:[I;-364360591,-378910555,-2073601316,909236061]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

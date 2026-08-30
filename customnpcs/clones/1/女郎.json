@@ -1,0 +1,498 @@
+{
+    "ReturnToStart": 1b,
+    "NpcInv": [
+    ],
+    "BossColor": 0,
+    "PotionEffect": 0,
+    "Size": 5.0f,
+    "Resistances": {
+        "Arrow": 1.0f,
+        "Explosion": 1.0f,
+        "Knockback": 1.0f,
+        "Melee": 1.0f
+    },
+    "BossBar": 0b,
+    "RespawnTime": 20,
+    "NpcAngrySound": "",
+    "IgnoreCobweb": 0b,
+    "CanUpdate": 1b,
+    "LootMode": 0,
+    "AttackStrenght": 5,
+    "PersistenceRequired": 0b,
+    "NpcLines": {
+        "Lines": [
+            {
+                "Line": "小哥哥，来玩呀~~",
+                "Song": "",
+                "Slot": 0
+            }
+        ]
+    },
+    "NpcScenes": {
+        "Scenes": [
+        ]
+    },
+    "TraderFuzzyMatch": 1b,
+    "Orientation": 0,
+    "ScriptLanguage": "ECMAScript",
+    "KnockBack": 0,
+    "TransformHasJob": 0b,
+    "BurnInSun": 0b,
+    "TraderSold": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "goety:crystal_ball",
+                "Count": 1b,
+                "tag": {
+                    "RepairCost": 0,
+                    "display": {
+                        "Lore": [
+                            "{\"text\":\"穿过53 206 429的桥就是女郎家了\",\"italic\":false}"
+                        ],
+                        "Name": "{\"text\":\"女郎家的门槛令牌\"}"
+                    }
+                }
+            },
+            {
+                "Slot": 3b,
+                "id": "minecraft:potion",
+                "Count": 1b,
+                "tag": {
+                    "RepairCost": 0,
+                    "Potion": "apotheosis:strong_haste",
+                    "display": {
+                        "Name": "{\"text\":\"伟哥\"}"
+                    }
+                }
+            }
+        ]
+    },
+    "ShowLayers": 1b,
+    "AttackInvisible": 0b,
+    "HurtTime": 0s,
+    "ActiveRange": 32,
+    "PotionImmune": 0b,
+    "AvoidsSun": 0b,
+    "Texture": "minecraft:textures/entity/piglin/zombified_piglin.png",
+    "NpcJob": 1,
+    "BurstCount": 1,
+    "pSpeed": 10,
+    "DeathTime": 0s,
+    "pImpact": 0,
+    "BalmData": {
+    },
+    "Motion": [
+        0.0d,
+        -0.0784000015258789d,
+        0.0d
+    ],
+    "BardStreamer": 0b,
+    "pEffect": 0,
+    "DistanceToMelee": 0,
+    "NpcStepSound": "",
+    "FireRate": 5,
+    "pEffAmp": 0,
+    "NpcKilledLines": {
+        "Lines": [
+        ]
+    },
+    "TraderMarket": "",
+    "Fire": -1s,
+    "BardLoops": 0b,
+    "TransformHasInv": 0b,
+    "NpcInteractLines": {
+        "Lines": [
+            {
+                "Line": "小哥哥，来玩呀~~",
+                "Song": "",
+                "Slot": 0
+            }
+        ]
+    },
+    "pSpin": 0b,
+    "NpcHurtSound": "minecraft:entity.player.hurt",
+    "pTrail": 0,
+    "NoFallDamage": 0b,
+    "AbsorptionAmount": 0.0f,
+    "Name": "女郎",
+    "BardMinRange": 2,
+    "FallDistance": 0.0f,
+    "SkinColor": 16777215,
+    "NPCDialogOptions": [
+    ],
+    "AggroRange": 16,
+    "DirectLOS": 1b,
+    "HandDropChances": [
+        0.085f,
+        0.085f
+    ],
+    "NpcModelData": {
+        "CustomSkinUrl": "",
+        "BodyConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "MoveAnimation": 16,
+        "EntityName": "mythicalcreatures:rainbow_dash",
+        "Legs2Config": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "SimpleRender": 0b,
+        "ArmsConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "ExtraData": {
+        },
+        "HeadConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "LegsConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "Arms2Config": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "Parts": [
+        ],
+        "NewParts": [
+        ],
+        "WingMode": 0,
+        "DisplayName": "",
+        "Animation": 0,
+        "ModelType": 0,
+        "LastEdited": 1786448233639L
+    },
+    "VisibleAvailability": {
+        "AvailabilityQuestId": -1,
+        "AvailabilityScoreboardType": 1,
+        "AvailabilityFactionStance": 0,
+        "AvailabilityScoreboard2Value": 1,
+        "AvailabilityQuest": 0,
+        "AvailabilityDialog4": 0,
+        "AvailabilityScoreboardObjective": "",
+        "AvailabilityDialog3": 0,
+        "AvailabilityQuest2": 0,
+        "AvailabilityQuest3": 0,
+        "AvailabilityScoreboard2Objective": "",
+        "AvailabilityQuest4": 0,
+        "ModRev": 18,
+        "AvailabilityDialog2": 0,
+        "AvailabilityDayTime": 0,
+        "AvailabilityFaction2Id": -1,
+        "AvailabilityScoreboardValue": 1,
+        "AvailabilityFaction": 0,
+        "AvailabilityDialog": 0,
+        "AvailabilityScoreboard2Type": 1,
+        "AvailabilityFaction2": 0,
+        "AvailabilityFactionId": -1,
+        "AvailabilityFaction2Stance": 0,
+        "AvailabilityDialogId": -1,
+        "AvailabilityQuest4Id": -1,
+        "AvailabilityQuest3Id": -1,
+        "AvailabilityQuest2Id": -1,
+        "AvailabilityDialog2Id": -1,
+        "AvailabilityDialog3Id": -1,
+        "AvailabilityDialog4Id": -1,
+        "AvailabilityMinPlayerLevel": 0
+    },
+    "minDelay": 20,
+    "DoorInteract": 2,
+    "MoveSpeed": 5,
+    "TransformEditingModus": 0b,
+    "UsingSkinUrl": 0b,
+    "TraderIgnoreNBT": 0b,
+    "PotionDuration": 5,
+    "maxDelay": 40,
+    "ScriptEnabled": 0b,
+    "Role": 1,
+    "DropChance": [
+    ],
+    "KilledTime": 0L,
+    "AimWhileShooting": 0b,
+    "CanPickUpLoot": 0b,
+    "CanDrown": 1b,
+    "LineColors": [I;-7522304,-88773,-5352703],
+    "pSize": 5,
+    "CanSprint": 0b,
+    "CanLeap": 0b,
+    "ForgeData": {
+        "cnpcmarkdata": {
+            "marks": [
+            ]
+        },
+        "posture": 0,
+        "frost_status": 0,
+        "despawn_timer": 0,
+        "bleed": 0,
+        "frost_cooling_down": 0b
+    },
+    "PotionAmp": 0,
+    "TacticalRadius": 4,
+    "MaxExp": 0,
+    "PortalCooldown": 0,
+    "pGlows": 0b,
+    "TransformHasAdvanced": 0b,
+    "MovementType": 0,
+    "FiringSound": "minecraft:entity.arrow.shoot",
+    "Armor": [
+    ],
+    "CloakTexture": "",
+    "GlowTexture": "",
+    "pXlr8": 0b,
+    "MarkovGeneratorId": 3,
+    "Scripts": [
+    ],
+    "Health": 20.0f,
+    "MovingPause": 1b,
+    "Title": "出来麦的",
+    "Rotation": [
+        -174.75482f,
+        0.0f
+    ],
+    "ShowName": 0,
+    "BardSong": "customnpcs:human.female.evil.death",
+    "SpawnCycle": 0,
+    "Brain": {
+        "memories": {
+        }
+    },
+    "stopAndInteract": 1b,
+    "TraderNameCheck": 1b,
+    "ReactsToFire": 0b,
+    "PositionOffsetZ": 5.0f,
+    "PositionOffsetY": 5.0f,
+    "PositionOffsetX": 5.0f,
+    "TransformHasAI": 0b,
+    "id": "customnpcs:customnpc",
+    "IsStatue": 0b,
+    "MovingPatern": 0,
+    "DefendFaction": 0b,
+    "FireIndirect": 0,
+    "NpcVisible": 0,
+    "LinkedNpcName": "",
+    "HitSound": "minecraft:entity.arrow.hit",
+    "FindShelter": 2,
+    "Air": 300s,
+    "TacticalVariant": 0,
+    "HandItems": [
+        {
+        },
+        {
+        }
+    ],
+    "ArmorDropChances": [
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f
+    ],
+    "StandingState": 0,
+    "NpcInteractNPCLines": {
+        "Lines": [
+        ]
+    },
+    "WalkingRange": 10,
+    "ShotCount": 1,
+    "pDur": 5,
+    "TraderIgnoreDamage": 0b,
+    "AttackRange": 2.0f,
+    "NpcKillLines": {
+        "Lines": [
+        ]
+    },
+    "NpcAttackLines": {
+        "Lines": [
+        ]
+    },
+    "pArea": 0,
+    "MoveState": 0,
+    "pRender3D": 1b,
+    "CombatRegen": 0,
+    "NpcsTimers": [
+    ],
+    "MarkovGender": 0,
+    "LeftHanded": 0b,
+    "OnGround": 1b,
+    "ImmuneToFire": 0b,
+    "OverlayGlowing": 1b,
+    "ArmorItems": [
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        }
+    ],
+    "DisablePitch": 0b,
+    "pPhysics": 1b,
+    "BardMaxRange": 10,
+    "HurtByTimestamp": 6444,
+    "TraderCurrency": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "id": "minecraft:diamond",
+                "Count": 5b
+            },
+            {
+                "Slot": 3b,
+                "id": "minecraft:diamond",
+                "Count": 1b
+            },
+            {
+                "Slot": 21b,
+                "id": "minecraft:gold_ingot",
+                "Count": 1b
+            }
+        ]
+    },
+    "CreatureType": 0,
+    "Attributes": [
+        {
+            "Base": 32.0d,
+            "Name": "minecraft:generic.follow_range"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "forge:step_height_addition"
+        },
+        {
+            "Base": 5.0d,
+            "Name": "minecraft:generic.attack_damage"
+        },
+        {
+            "Base": 20.0d,
+            "Name": "minecraft:generic.max_health"
+        },
+        {
+            "Base": 0.1d,
+            "Name": "caelus:fall_flying"
+        },
+        {
+            "Base": 0.08d,
+            "Name": "forge:entity_gravity"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "minecraft:generic.armor_toughness"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "minecraft:generic.attack_knockback"
+        },
+        {
+            "Base": 0.25d,
+            "Name": "minecraft:generic.movement_speed"
+        },
+        {
+            "Base": 8.0d,
+            "Name": "forge:swim_speed"
+        },
+        {
+            "Base": 0.5d,
+            "Name": "minecraft:generic.flying_speed"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "minecraft:generic.armor"
+        }
+    ],
+    "Invulnerable": 0b,
+    "TransformHasDisplay": 0b,
+    "TransformHasRole": 0b,
+    "NpcIdleSound": "",
+    "Weapons": [
+    ],
+    "HealthRegen": 1,
+    "ForgeCaps": {
+        "goety:misc": {
+            "shields": 0,
+            "clientTargetID": 0,
+            "mobTargetID": 0,
+            "shakeTime": 0,
+            "shieldTime": 0,
+            "ambientSoundTime": 0,
+            "freezeLevel": 0,
+            "customSpinTexture": "textures/entity/trident_riptide.png",
+            "shieldCool": 0
+        },
+        "curios:inventory": {
+            "Curios": [
+            ]
+        }
+    },
+    "SkinUrl": "",
+    "CanSwim": 1b,
+    "GroundSound": "minecraft:block.stone.break",
+    "MountControl": 0b,
+    "MaxHealth": 20,
+    "HideBodyWhenKilled": 0b,
+    "AttackSpeed": 20,
+    "FactionPoints": {
+        "DecreaseFaction1Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFactions1": -1,
+        "OptionFactions2": -1,
+        "OptionFaction1Points": 100,
+        "DecreaseFaction2Points": 0b
+    },
+    "pDamage": 4,
+    "AttackOtherFactions": 0b,
+    "TransformIsActive": 0b,
+    "MovingState": 0,
+    "MovingPos": 0,
+    "OnAttack": 0,
+    "FallFlying": 0b,
+    "OrderedLines": 0b,
+    "TransformHasStats": 0b,
+    "ModRev": 18,
+    "Accuracy": 60,
+    "MinExp": 0,
+    "MaxFiringRange": 15,
+    "BardHasOff": 1b,
+    "pStick": 0b,
+    "NpcDeathSound": "minecraft:entity.player.hurt",
+    "FactionID": 0,
+    "TotalTicksAlive": 223183L,
+    "npcInteracting": 1b,
+    "AvoidsWater": 0b,
+    "NoLivingAnimation": 0b
+}
